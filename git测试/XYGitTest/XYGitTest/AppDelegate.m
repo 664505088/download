@@ -17,6 +17,10 @@
     [self.window makeKeyAndVisible];
     UIViewController * vc = [[XYViewController alloc] init];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
+<<<<<<< HEAD
+=======
+    
+>>>>>>> v1.0.1
     return YES;
 }
 @end

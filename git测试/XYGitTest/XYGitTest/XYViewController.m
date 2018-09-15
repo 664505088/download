@@ -7,12 +7,16 @@
 //
 
 #import "XYViewController.h"
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> v1.0.1
 @implementation XYViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+<<<<<<< HEAD
     // Do any additional setup after loading the view.
 }
 
@@ -30,5 +34,9 @@
     // Pass the selected object to the new view controller.
 }
 */
+=======
+    NSLog(@"在分支中添加打印");
+}
+>>>>>>> v1.0.1
 
 @end
