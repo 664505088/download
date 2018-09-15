@@ -12,10 +12,16 @@
 
 =======
 >>>>>>> v1.0.1
+@interface XYViewController ()
+
+@end
+
+>>>>>>> parent of c6d8beb... 添加打印
 @implementation XYViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     // Do any additional setup after loading the view.
@@ -40,6 +46,9 @@
 =======
     NSLog(@"打印");
 >>>>>>> v1.0.1
+=======
+
+>>>>>>> parent of c6d8beb... 添加打印
 }
 >>>>>>> v1.0.1
 
