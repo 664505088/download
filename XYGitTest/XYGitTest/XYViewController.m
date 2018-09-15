@@ -13,5 +13,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title = @"我的太阳";
 }
 @end
