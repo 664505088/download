@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "XYViewController.h"
 @implementation AppDelegate
 
 
@@ -14,7 +15,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    self.window.rootViewController = [[UIViewController alloc] init];
+    UIViewController * vc = [[XYViewController alloc] init];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
+    
     return YES;
 }
 @end

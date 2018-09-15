@@ -11,6 +11,7 @@
 		29EE1F67214C9B4A00FF54D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EE1F66214C9B4A00FF54D8 /* Assets.xcassets */; };
 		29EE1F6A214C9B4A00FF54D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EE1F68214C9B4A00FF54D8 /* LaunchScreen.storyboard */; };
 		29EE1F6D214C9B4A00FF54D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EE1F6C214C9B4A00FF54D8 /* main.m */; };
+		29EE1F75214CA08700FF54D8 /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EE1F74214CA08700FF54D8 /* XYViewController.m */; };
 		E4C9822740C11F6465DF4CF7 /* libPods-XYGitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAAC22A78A81B0EEFC87DC47 /* libPods-XYGitTest.a */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,8 @@
 		29EE1F69214C9B4A00FF54D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29EE1F6B214C9B4A00FF54D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29EE1F6C214C9B4A00FF54D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29EE1F73214CA08700FF54D8 /* XYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
+		29EE1F74214CA08700FF54D8 /* XYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
 		B513A933DBCEDF440F88A44D /* Pods-XYGitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYGitTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYGitTest/Pods-XYGitTest.debug.xcconfig"; sourceTree = "<group>"; };
 		C837E3653157893A987155A6 /* Pods-XYGitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYGitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYGitTest/Pods-XYGitTest.release.xcconfig"; sourceTree = "<group>"; };
 		CAAC22A78A81B0EEFC87DC47 /* libPods-XYGitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYGitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +65,8 @@
 			children = (
 				29EE1F63214C9B4900FF54D8 /* AppDelegate.h */,
 				29EE1F64214C9B4900FF54D8 /* AppDelegate.m */,
+				29EE1F73214CA08700FF54D8 /* XYViewController.h */,
+				29EE1F74214CA08700FF54D8 /* XYViewController.m */,
 				29EE1F66214C9B4A00FF54D8 /* Assets.xcassets */,
 				29EE1F68214C9B4A00FF54D8 /* LaunchScreen.storyboard */,
 				29EE1F6B214C9B4A00FF54D8 /* Info.plist */,
@@ -179,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29EE1F6D214C9B4A00FF54D8 /* main.m in Sources */,
+				29EE1F75214CA08700FF54D8 /* XYViewController.m in Sources */,
 				29EE1F65214C9B4900FF54D8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
