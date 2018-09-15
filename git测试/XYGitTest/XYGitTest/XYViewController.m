@@ -8,10 +8,12 @@
 
 #import "XYViewController.h"
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> v1.0.1
+=======
 @interface XYViewController ()
 
 @end
