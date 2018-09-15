@@ -7,16 +7,11 @@
 //
 
 #import "XYViewController.h"
-
-@interface XYViewController ()
-
-@end
-
 @implementation XYViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    NSLog(@"在分支中添加打印");
 }
 
 @end
