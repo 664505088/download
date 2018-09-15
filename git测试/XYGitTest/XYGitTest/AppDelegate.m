@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "XYViewController.h"
 @implementation AppDelegate
 
 
@@ -15,12 +14,16 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+<<<<<<< HEAD
     UIViewController * vc = [[XYViewController alloc] init];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
 <<<<<<< HEAD
 =======
     
 >>>>>>> v1.0.1
+=======
+    self.window.rootViewController = [[UIViewController alloc] init];
+>>>>>>> parent of 02c3686... 添加navigation
     return YES;
 }
 @end
