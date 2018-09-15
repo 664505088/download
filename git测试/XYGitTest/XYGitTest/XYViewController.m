@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Do any additional setup after loading the view.
 }
 
@@ -36,6 +37,9 @@
 */
 =======
     NSLog(@"在分支中添加打印");
+=======
+    NSLog(@"打印");
+>>>>>>> v1.0.1
 }
 >>>>>>> v1.0.1
 
