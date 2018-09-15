@@ -7,116 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29EE1F65214C9B4900FF54D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EE1F64214C9B4900FF54D8 /* AppDelegate.m */; };
-		29EE1F67214C9B4A00FF54D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EE1F66214C9B4A00FF54D8 /* Assets.xcassets */; };
-		29EE1F6A214C9B4A00FF54D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EE1F68214C9B4A00FF54D8 /* LaunchScreen.storyboard */; };
-		29EE1F6D214C9B4A00FF54D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EE1F6C214C9B4A00FF54D8 /* main.m */; };
-<<<<<<< HEAD
-		29EE1F78214CA47D00FF54D8 /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EE1F77214CA47D00FF54D8 /* XYViewController.m */; };
-=======
-		29EE1F75214CA08700FF54D8 /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EE1F74214CA08700FF54D8 /* XYViewController.m */; };
->>>>>>> v1.0.1
-		E4C9822740C11F6465DF4CF7 /* libPods-XYGitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAAC22A78A81B0EEFC87DC47 /* libPods-XYGitTest.a */; };
+		29DADC79214CADC000159390 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DADC78214CADC000159390 /* AppDelegate.m */; };
+		29DADC7B214CADC000159390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29DADC7A214CADC000159390 /* Assets.xcassets */; };
+		29DADC7E214CADC000159390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29DADC7C214CADC000159390 /* LaunchScreen.storyboard */; };
+		29DADC81214CADC000159390 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DADC80214CADC000159390 /* main.m */; };
+		29DADC89214CADD000159390 /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DADC88214CADD000159390 /* XYViewController.m */; };
+		700E15E36CF66015959ED949 /* libPods-XYGitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AB2843242706039A0ED692 /* libPods-XYGitTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29EE1F60214C9B4900FF54D8 /* XYGitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYGitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		29EE1F63214C9B4900FF54D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		29EE1F64214C9B4900FF54D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		29EE1F66214C9B4A00FF54D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		29EE1F69214C9B4A00FF54D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		29EE1F6B214C9B4A00FF54D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29EE1F6C214C9B4A00FF54D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		29EE1F76214CA47D00FF54D8 /* XYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
-		29EE1F77214CA47D00FF54D8 /* XYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
-=======
-		29EE1F73214CA08700FF54D8 /* XYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
-		29EE1F74214CA08700FF54D8 /* XYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
->>>>>>> v1.0.1
-		B513A933DBCEDF440F88A44D /* Pods-XYGitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYGitTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYGitTest/Pods-XYGitTest.debug.xcconfig"; sourceTree = "<group>"; };
-		C837E3653157893A987155A6 /* Pods-XYGitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYGitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYGitTest/Pods-XYGitTest.release.xcconfig"; sourceTree = "<group>"; };
-		CAAC22A78A81B0EEFC87DC47 /* libPods-XYGitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYGitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DADC74214CADC000159390 /* XYGitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYGitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DADC77214CADC000159390 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29DADC78214CADC000159390 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29DADC7A214CADC000159390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29DADC7D214CADC000159390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29DADC7F214CADC000159390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29DADC80214CADC000159390 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29DADC87214CADD000159390 /* XYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
+		29DADC88214CADD000159390 /* XYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
+		6757483BB0C4974AA36C1A4F /* Pods-XYGitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYGitTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYGitTest/Pods-XYGitTest.debug.xcconfig"; sourceTree = "<group>"; };
+		8C9F60D968738A330E25B9D7 /* Pods-XYGitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYGitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYGitTest/Pods-XYGitTest.release.xcconfig"; sourceTree = "<group>"; };
+		B3AB2843242706039A0ED692 /* libPods-XYGitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYGitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29EE1F5D214C9B4900FF54D8 /* Frameworks */ = {
+		29DADC71214CADC000159390 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C9822740C11F6465DF4CF7 /* libPods-XYGitTest.a in Frameworks */,
+				700E15E36CF66015959ED949 /* libPods-XYGitTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29EE1F57214C9B4900FF54D8 = {
+		29DADC6B214CADC000159390 = {
 			isa = PBXGroup;
 			children = (
-				29EE1F62214C9B4900FF54D8 /* XYGitTest */,
-				29EE1F61214C9B4900FF54D8 /* Products */,
-				780551CB1F27CD73DAB8AE85 /* Pods */,
-				F27BE38B7627B0C5CB118E6B /* Frameworks */,
+				29DADC76214CADC000159390 /* XYGitTest */,
+				29DADC75214CADC000159390 /* Products */,
+				C0F362194556A8968E827DB0 /* Pods */,
+				775E92E8B16FD3CB70866F39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		29EE1F61214C9B4900FF54D8 /* Products */ = {
+		29DADC75214CADC000159390 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29EE1F60214C9B4900FF54D8 /* XYGitTest.app */,
+				29DADC74214CADC000159390 /* XYGitTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29EE1F62214C9B4900FF54D8 /* XYGitTest */ = {
+		29DADC76214CADC000159390 /* XYGitTest */ = {
 			isa = PBXGroup;
 			children = (
-				29EE1F63214C9B4900FF54D8 /* AppDelegate.h */,
-				29EE1F64214C9B4900FF54D8 /* AppDelegate.m */,
-<<<<<<< HEAD
-				29EE1F76214CA47D00FF54D8 /* XYViewController.h */,
-				29EE1F77214CA47D00FF54D8 /* XYViewController.m */,
-=======
-				29EE1F73214CA08700FF54D8 /* XYViewController.h */,
-				29EE1F74214CA08700FF54D8 /* XYViewController.m */,
->>>>>>> v1.0.1
-				29EE1F66214C9B4A00FF54D8 /* Assets.xcassets */,
-				29EE1F68214C9B4A00FF54D8 /* LaunchScreen.storyboard */,
-				29EE1F6B214C9B4A00FF54D8 /* Info.plist */,
-				29EE1F6C214C9B4A00FF54D8 /* main.m */,
+				29DADC77214CADC000159390 /* AppDelegate.h */,
+				29DADC78214CADC000159390 /* AppDelegate.m */,
+				29DADC87214CADD000159390 /* XYViewController.h */,
+				29DADC88214CADD000159390 /* XYViewController.m */,
+				29DADC7A214CADC000159390 /* Assets.xcassets */,
+				29DADC7C214CADC000159390 /* LaunchScreen.storyboard */,
+				29DADC7F214CADC000159390 /* Info.plist */,
+				29DADC80214CADC000159390 /* main.m */,
 			);
 			path = XYGitTest;
 			sourceTree = "<group>";
 		};
-		780551CB1F27CD73DAB8AE85 /* Pods */ = {
+		775E92E8B16FD3CB70866F39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B513A933DBCEDF440F88A44D /* Pods-XYGitTest.debug.xcconfig */,
-				C837E3653157893A987155A6 /* Pods-XYGitTest.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F27BE38B7627B0C5CB118E6B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CAAC22A78A81B0EEFC87DC47 /* libPods-XYGitTest.a */,
+				B3AB2843242706039A0ED692 /* libPods-XYGitTest.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0F362194556A8968E827DB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6757483BB0C4974AA36C1A4F /* Pods-XYGitTest.debug.xcconfig */,
+				8C9F60D968738A330E25B9D7 /* Pods-XYGitTest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29EE1F5F214C9B4900FF54D8 /* XYGitTest */ = {
+		29DADC73214CADC000159390 /* XYGitTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29EE1F70214C9B4A00FF54D8 /* Build configuration list for PBXNativeTarget "XYGitTest" */;
+			buildConfigurationList = 29DADC84214CADC000159390 /* Build configuration list for PBXNativeTarget "XYGitTest" */;
 			buildPhases = (
-				9A496504E83C528EC9CBDE60 /* [CP] Check Pods Manifest.lock */,
-				29EE1F5C214C9B4900FF54D8 /* Sources */,
-				29EE1F5D214C9B4900FF54D8 /* Frameworks */,
-				29EE1F5E214C9B4900FF54D8 /* Resources */,
+				5DF1D546553C628B61DB1E2D /* [CP] Check Pods Manifest.lock */,
+				29DADC70214CADC000159390 /* Sources */,
+				29DADC71214CADC000159390 /* Frameworks */,
+				29DADC72214CADC000159390 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -124,24 +110,24 @@
 			);
 			name = XYGitTest;
 			productName = XYGitTest;
-			productReference = 29EE1F60214C9B4900FF54D8 /* XYGitTest.app */;
+			productReference = 29DADC74214CADC000159390 /* XYGitTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		29EE1F58214C9B4900FF54D8 /* Project object */ = {
+		29DADC6C214CADC000159390 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = rntd;
 				TargetAttributes = {
-					29EE1F5F214C9B4900FF54D8 = {
+					29DADC73214CADC000159390 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 29EE1F5B214C9B4900FF54D8 /* Build configuration list for PBXProject "XYGitTest" */;
+			buildConfigurationList = 29DADC6F214CADC000159390 /* Build configuration list for PBXProject "XYGitTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,30 +135,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 29EE1F57214C9B4900FF54D8;
-			productRefGroup = 29EE1F61214C9B4900FF54D8 /* Products */;
+			mainGroup = 29DADC6B214CADC000159390;
+			productRefGroup = 29DADC75214CADC000159390 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29EE1F5F214C9B4900FF54D8 /* XYGitTest */,
+				29DADC73214CADC000159390 /* XYGitTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		29EE1F5E214C9B4900FF54D8 /* Resources */ = {
+		29DADC72214CADC000159390 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29EE1F67214C9B4A00FF54D8 /* Assets.xcassets in Resources */,
-				29EE1F6A214C9B4A00FF54D8 /* LaunchScreen.storyboard in Resources */,
+				29DADC7B214CADC000159390 /* Assets.xcassets in Resources */,
+				29DADC7E214CADC000159390 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9A496504E83C528EC9CBDE60 /* [CP] Check Pods Manifest.lock */ = {
+		5DF1D546553C628B61DB1E2D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,27 +179,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		29EE1F5C214C9B4900FF54D8 /* Sources */ = {
+		29DADC70214CADC000159390 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29EE1F6D214C9B4A00FF54D8 /* main.m in Sources */,
-<<<<<<< HEAD
-				29EE1F78214CA47D00FF54D8 /* XYViewController.m in Sources */,
-=======
-				29EE1F75214CA08700FF54D8 /* XYViewController.m in Sources */,
->>>>>>> v1.0.1
-				29EE1F65214C9B4900FF54D8 /* AppDelegate.m in Sources */,
+				29DADC81214CADC000159390 /* main.m in Sources */,
+				29DADC89214CADD000159390 /* XYViewController.m in Sources */,
+				29DADC79214CADC000159390 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		29EE1F68214C9B4A00FF54D8 /* LaunchScreen.storyboard */ = {
+		29DADC7C214CADC000159390 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29EE1F69214C9B4A00FF54D8 /* Base */,
+				29DADC7D214CADC000159390 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -221,7 +203,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		29EE1F6E214C9B4A00FF54D8 /* Debug */ = {
+		29DADC82214CADC000159390 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +261,7 @@
 			};
 			name = Debug;
 		};
-		29EE1F6F214C9B4A00FF54D8 /* Release */ = {
+		29DADC83214CADC000159390 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -331,9 +313,9 @@
 			};
 			name = Release;
 		};
-		29EE1F71214C9B4A00FF54D8 /* Debug */ = {
+		29DADC85214CADC000159390 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B513A933DBCEDF440F88A44D /* Pods-XYGitTest.debug.xcconfig */;
+			baseConfigurationReference = 6757483BB0C4974AA36C1A4F /* Pods-XYGitTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -348,9 +330,9 @@
 			};
 			name = Debug;
 		};
-		29EE1F72214C9B4A00FF54D8 /* Release */ = {
+		29DADC86214CADC000159390 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C837E3653157893A987155A6 /* Pods-XYGitTest.release.xcconfig */;
+			baseConfigurationReference = 8C9F60D968738A330E25B9D7 /* Pods-XYGitTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -368,25 +350,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29EE1F5B214C9B4900FF54D8 /* Build configuration list for PBXProject "XYGitTest" */ = {
+		29DADC6F214CADC000159390 /* Build configuration list for PBXProject "XYGitTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29EE1F6E214C9B4A00FF54D8 /* Debug */,
-				29EE1F6F214C9B4A00FF54D8 /* Release */,
+				29DADC82214CADC000159390 /* Debug */,
+				29DADC83214CADC000159390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29EE1F70214C9B4A00FF54D8 /* Build configuration list for PBXNativeTarget "XYGitTest" */ = {
+		29DADC84214CADC000159390 /* Build configuration list for PBXNativeTarget "XYGitTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29EE1F71214C9B4A00FF54D8 /* Debug */,
-				29EE1F72214C9B4A00FF54D8 /* Release */,
+				29DADC85214CADC000159390 /* Debug */,
+				29DADC86214CADC000159390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 29EE1F58214C9B4900FF54D8 /* Project object */;
+	rootObject = 29DADC6C214CADC000159390 /* Project object */;
 }
