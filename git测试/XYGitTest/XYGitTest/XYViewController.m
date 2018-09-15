@@ -8,14 +8,23 @@
 
 #import "XYViewController.h"
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> v1.0.1
+=======
+
+@interface XYViewController ()
+
+@end
+
+>>>>>>> parent of 5e2709f... 打印
 @implementation XYViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     // Do any additional setup after loading the view.
@@ -40,6 +49,9 @@
 =======
     NSLog(@"打印");
 >>>>>>> v1.0.1
+=======
+
+>>>>>>> parent of 5e2709f... 打印
 }
 >>>>>>> v1.0.1
 
