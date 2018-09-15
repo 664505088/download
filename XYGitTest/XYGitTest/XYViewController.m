@@ -14,5 +14,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"我的太阳";
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"你" style:UIBarButtonItemStyleDone target:nil action:nil];
 }
 @end
