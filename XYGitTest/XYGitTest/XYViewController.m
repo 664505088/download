@@ -13,6 +13,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"我的太阳";
+}
+- (void)addMedth {
+    NSLog(@"添加了方法");
 }
 @end
